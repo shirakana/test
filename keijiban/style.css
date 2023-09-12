@@ -1,0 +1,162 @@
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+    margin: 0;
+}
+
+h1{
+    border-left: solid 4px #414141;
+    border-bottom: solid 4px #414141;
+    padding-left: 10px;
+    margin: 0;
+}
+
+h2{
+    margin:0;
+    margin-top:30px;
+    margin-bottom:20px;
+    background-color:#e2e2e2;
+    border-left:4px red solid;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:15px;
+    width:100%-15px;
+    font-size:20px;
+}
+
+h3{
+    padding-bottom:4px;
+    border-bottom: solid 4px #c4c4c4;
+}
+
+#menu-bar{
+    display: flex;
+    align-items: center;
+    width:auto;
+    height: 50px;
+    background-color: #000000;
+}
+
+#logo{
+    padding-left: 20px;
+}
+
+#menu{
+    margin: 0;
+    padding-left: 50px;
+}
+
+#menu li{
+    float: left;
+    color: #ffffff;
+    list-style: none;
+    padding-right: 40px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: auto;
+}
+
+#main-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    height: auto;
+    margin: 0;
+}
+
+#main-left{
+    width: 70%;
+    height: 100%;
+    border: solid 2px #6d97e4;
+}
+
+#article{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+form{
+    margin:10px auto;
+    background-color:#f1f1f1;
+    border:3px #ebebeb solid;
+    width:100%;
+}
+
+.contents{
+    margin:10px auto;
+    background-color:#f1f1f1;
+    border:3px #ebebeb solid;
+    width:100%;
+}
+
+.contents-box{
+    margin:10px;
+}
+
+.comments{
+    font-size: 18px;
+}
+
+.hundlename{
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+form div{
+    padding:15px;
+}
+
+#text, textarea, #dropdown{
+    border:1px solid #dfdfdf;
+    padding:5px;
+    color:#999999;
+    background:#ffffff;
+}
+
+#text, textarea{
+    width:350px;
+}
+
+.submit{
+    border:1px solid lightgray;
+    padding:4px 10px;
+    color:white;
+    background-color:#bfbfbf;
+    border-radius:5px;
+    border-bottom:2px solid gray;
+}
+
+#main-right{
+    width: 30%;
+    height: 100%;
+    border: solid 2px #e4756d;
+}
+
+#side-menu{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+.side-list{
+    padding-left: 20px;
+    margin: 0;
+    list-style: none;
+}
+
+footer{
+    width: auto;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    line-height: 50px;
+}
